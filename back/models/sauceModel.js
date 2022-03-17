@@ -25,14 +25,14 @@ const sauceSchema = mongoose.Schema(
             type:String
         },
         heat:{
-            type:number,
+            type:Number,
             required:true
         },
         likes:{
-            type:number
+            type:Number
         },
         dislikes:{
-            type:number
+            type:Number
         },
         usersLiked:{
             type:Array
